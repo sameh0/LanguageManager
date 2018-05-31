@@ -1,4 +1,4 @@
-#This class sets app language indepentent from the system language
+## This class sets app language indepentent from the system language
 
 supports live language change
 
