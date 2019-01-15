@@ -1,0 +1,16 @@
+PODS:
+  - LanguageManager (0.1.0)
+
+DEPENDENCIES:
+  - LanguageManager (from `../`)
+
+EXTERNAL SOURCES:
+  LanguageManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LanguageManager: 37c5ef74669c3a587888197baa786818b05a91ac
+
+PODFILE CHECKSUM: fff0465a61d99d3c68c6941db2984794df753bbe
+
+COCOAPODS: 1.5.3
