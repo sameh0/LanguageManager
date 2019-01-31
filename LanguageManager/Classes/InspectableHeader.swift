@@ -21,6 +21,7 @@ extension UIView
         {
             if newValue
             {
+                
                 LanguageManager.alignControl(control: self)
             }
             languageDirection = newValue

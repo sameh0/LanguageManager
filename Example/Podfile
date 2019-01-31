@@ -3,9 +3,4 @@ use_frameworks!
 target 'LanguageManager_Example' do
   pod 'LanguageManager', :path => '../'
 
-  target 'LanguageManager_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
