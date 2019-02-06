@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LanguageManager'
-  s.version          = '1.2'
+  s.version          = '1.3'
   s.summary          = 'Change Language dynamically'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.swift_version  = '3.0'
+  s.swift_version  = '4.2'
   s.source_files = 'LanguageManager/Classes/**/*'
   
   # s.resource_bundles = {

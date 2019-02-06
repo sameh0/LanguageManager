@@ -8,9 +8,9 @@
 
 fileprivate var languageDirection = false
 
-extension UIView
+public extension UIView
 {
-    @IBInspectable var supportLanguageDirection: Bool
+    @IBInspectable public var supportLanguageDirection: Bool
     {
         get
         {
