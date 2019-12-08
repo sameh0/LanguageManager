@@ -1,6 +1,6 @@
-##Language Manager
+## Language Manager
 
-###allows you to control your app language indepentent from iOS language
+### allows you to control your app language indepentent from iOS language
 
 * supports live language change
 
