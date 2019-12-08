@@ -3,10 +3,11 @@
 //  LanguageManager
 //
 //  Created by sameh-hst on 01/31/2019.
-//  Copyright (c) 2019 sameh-hst. All rights reserved.
+//  Copyright (c) 2019 Sameh All rights reserved.
 //
 
 import UIKit
+import LanguageManager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,8 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+        LanguageManager.defaultLanguage = .en
+        UIButton().supportLanguageDirection
+        LanguageManager.firstTimeLanguageSetting()
+
         return true
     }
 

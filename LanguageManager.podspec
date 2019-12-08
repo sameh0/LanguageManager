@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LanguageManager'
-  s.version          = '1.3'
+  s.version          = '1.4'
   s.summary          = 'Change Language dynamically'
 
 # This description is used to generate tags and improve search results.

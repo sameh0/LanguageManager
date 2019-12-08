@@ -1,20 +1,29 @@
-## This class sets app language indepentent from the system language
+##Language Manager
 
-supports live language change
+###allows you to control your app language indepentent from iOS language
 
-The first time the user launches the app it tries to adapt to system language ( if it supports it )
+* supports live language change
 
-it also can be used to check current app language
-
-
+* The first time the user launches the app it tries to adapt to system language ( if it's supported  )
+* changes controls RTL and LTR automatically ( with out the need to restart the app )
+* it also can be used to check current app language
 
 ## Using 
 
-set default language in appdelegate and set call firstTimeLanguageSettings 
+set default language in AppDelegate and set call `firstTimeLanguageSettings` 
 
-LanguageManager.defaultLanguage 
-LanguageManager.firstTimeLanguageSetting()
+`LanguageManager.defaultLanguage = .en  
+LanguageManager.firstTimeLanguageSetting()`
+
+if you want a control to change it's directions dynamically from RTL and LTR you just use 
+`.supportLanguageDirection = true` 
 
 
 
-##TODO Write complete documentation 
+## Installation
+
+`pod install LanguageManager` 
+
+Feel Free to contribute . 
+
+###TODO Write complete documentation 

@@ -3,7 +3,7 @@
 //  LanguageManager
 //
 //  Created by sameh on 10/17/17.
-//  Copyright © 2017 Radvy. All rights reserved.
+//  Copyright © 2017 Sameh. All rights reserved.
 //
 extension LanguageManager
 {
