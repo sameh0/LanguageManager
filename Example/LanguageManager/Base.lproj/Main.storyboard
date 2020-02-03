@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IW5-DG-IBi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IW5-DG-IBi">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -43,19 +43,19 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ixu-nt-t5m" userLabel="NavigationArea">
-                                        <rect key="frame" x="0.0" y="61" width="375" height="124"/>
+                                        <rect key="frame" x="0.0" y="61" width="375" height="121"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iqv-Lm-gSM" userLabel="IconsView">
-                                                <rect key="frame" x="10" y="0.0" width="37.5" height="124"/>
+                                                <rect key="frame" x="10" y="0.0" width="37.5" height="121"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_place" translatesAutoresizingMaskIntoConstraints="NO" id="Bh8-SH-1x7">
-                                                        <rect key="frame" x="3" y="78" width="32" height="32"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Bh8-SH-1x7">
+                                                        <rect key="frame" x="10" y="83.5" width="17.5" height="15.5"/>
                                                     </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_fiber_manual_record" translatesAutoresizingMaskIntoConstraints="NO" id="2dD-eP-OT6">
-                                                        <rect key="frame" x="3" y="14" width="32" height="32"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2dD-eP-OT6">
+                                                        <rect key="frame" x="9.5" y="19" width="19" height="21"/>
                                                     </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="CRj-w0-Gw3">
-                                                        <rect key="frame" x="3" y="46" width="32" height="32"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.down.on.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CRj-w0-Gw3">
+                                                        <rect key="frame" x="7.5" y="38.5" width="23" height="45"/>
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -68,7 +68,7 @@
                                                 </constraints>
                                             </view>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Mdy-d5-5b7" userLabel="NavigationTexts">
-                                                <rect key="frame" x="47.5" y="0.0" width="280" height="124"/>
+                                                <rect key="frame" x="47.5" y="0.0" width="280" height="121"/>
                                                 <subviews>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="To" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mhb-tn-3XU">
                                                         <rect key="frame" x="0.0" y="0.0" width="280" height="60"/>
@@ -83,7 +83,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </textField>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="From" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s3y-pn-RoX">
-                                                        <rect key="frame" x="0.0" y="64" width="280" height="60"/>
+                                                        <rect key="frame" x="0.0" y="61" width="280" height="60"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="60" id="wHI-z1-l2U"/>
@@ -115,7 +115,7 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="vi6-qj-Nhm" userLabel="Details">
-                                        <rect key="frame" x="0.0" y="186" width="375" height="179"/>
+                                        <rect key="frame" x="0.0" y="183" width="375" height="182"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f8n-Tf-3f5" userLabel="name">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -138,11 +138,11 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zy2-kR-QFB" userLabel="phone">
-                                                <rect key="frame" x="0.0" y="61" width="375" height="57"/>
+                                                <rect key="frame" x="0.0" y="61" width="375" height="60"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wbF-Vq-76S" userLabel="details">
-                                                <rect key="frame" x="0.0" y="119" width="375" height="60"/>
+                                                <rect key="frame" x="0.0" y="122" width="375" height="60"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
                                         </subviews>
@@ -254,10 +254,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ic_fiber_manual_record" width="16" height="16"/>
-        <image name="ic_place" width="16" height="16"/>
-        <image name="line" width="16" height="16"/>
+        <image name="pencil" catalog="system" width="64" height="56"/>
         <image name="radio-button-checked" width="16" height="16"/>
         <image name="radio-button-unchecked" width="16" height="16"/>
+        <image name="square.and.arrow.down.on.square" catalog="system" width="60" height="64"/>
+        <image name="square.and.arrow.up.fill" catalog="system" width="56" height="64"/>
     </resources>
 </document>
