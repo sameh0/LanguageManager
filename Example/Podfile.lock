@@ -1,5 +1,5 @@
 PODS:
-  - LanguageManager (1.2)
+  - LanguageManager (1.5)
 
 DEPENDENCIES:
   - LanguageManager (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LanguageManager: a9bca5ee68f7bce625115ad1986f12ca54555acc
+  LanguageManager: f6afce5c3a6ebb2bb77a1fc761bba50e705240d5
 
 PODFILE CHECKSUM: 6523554a70acd717d6ffd1c974638bbbb6619354
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
