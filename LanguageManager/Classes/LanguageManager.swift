@@ -43,6 +43,7 @@ public class LanguageManager:Bundle
         user.set([language.rawValue, fallbackLanguage], forKey: "AppleLanguages")
         user.synchronize()
         swapBundle(language)
+        UIView.appearance().semanticContentAttribute = checkLanguage(lang: .ar) ? .forceRightToLeft : .forceLeftToRight
         completion?()
     }
     
